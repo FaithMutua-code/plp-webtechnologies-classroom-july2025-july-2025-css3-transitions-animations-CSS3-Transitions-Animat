@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Animation Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>CSS + JavaScript Animation Demo</h1>
+
+  <!-- Part 1: Transition -->
+  <button id="hoverBtn">Hover Me (CSS Transition)</button>
+
+  <!-- Part 2: Function + DOM trigger -->
+  <div id="animatedBox" class="box">I'm a box</div>
+  <button onclick="triggerAnimation()">Animate Box</button>
+
+  <!-- Part 3: Modal with dynamic animation -->
+  <button onclick="toggleModal()">Toggle Modal</button>
+  <div id="modal" class="modal">🎉 This is a modal!</div>
+
+  <!-- Part 4: Function with return + scope -->
+  <div>
+    <p>Calculate total price:</p>
+    <button onclick="showTotal()">Calculate $50 + 15% tax</button>
+    <p id="totalOutput"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
